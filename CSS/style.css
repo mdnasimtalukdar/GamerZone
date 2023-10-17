@@ -138,10 +138,17 @@ nav {
     border-radius: 10rem;
     margin-top: 4rem;
     display: inline-block;
+    transition: var(--transition);
 }
 .banner__container .banner__left .banner__button2 {
     background: #4EC5F7;
     margin-left: 2rem;
+}
+.banner__container .banner__left > a:hover {
+    background: #4EC5F7;
+}
+.banner__container .banner__left .banner__button2:hover {
+    background: #ff42a5;
 }
 .banner__right .banner__img {
     width: 70rem;
@@ -149,30 +156,48 @@ nav {
 .banner__right .banner__img img {
     width: 100%;
 }
-
-
-
-/* Responsive */
-@media screen and (max-width:576px) {
-    .container{
-        width: 90%;
-    }
-    nav {
-        display: none;
-    }
-    .banner__container {
-        grid-template-columns: 1fr;
-        gap: 5rem;
-    }
-    .banner__container .banner__left {
-        order: 1;
-        justify-self: center;
-    }
-    .banner__right .banner__img {
-        width: 50rem;
-    }
-    .banner__right .banner__img img {
-        width: 100%;
-    }
+/* Banner End */
+#gamer {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
 }
-/* Responsive */
+.gammer__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 5rem;
+    padding: 9rem 0;
+}
+.gammer__right {
+    text-align: right;
+}
+.gammer__right h2 {
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+.gammer__right p {
+    margin: 2.4rem 0rem 2.4rem 20rem;
+
+}
+.gammer__right > a {
+    text-transform: uppercase;
+    background: #ff42a5;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    color: #FFFFFF;
+    border-radius: 10rem;
+    display: inline-block;
+    transition: var(--transition);
+    margin-bottom: 3rem;
+}
+.gammer__right > a:hover {
+    background: #4EC5F7;
+}
+.gammer__right h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+}
+.gammer__right h3 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
