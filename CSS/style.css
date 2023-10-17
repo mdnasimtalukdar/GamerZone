@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  --transition: all 400ms ease;;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.text_gradient {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main_p {
+  font-size: 1.8rem;
+  color: #534c64;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.second_p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: #534c64;
+}
+.section_heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+/* Common CSS end */
+nav {
+    margin-top: 5rem;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__container .logo {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.nav__container .logo .logo_name {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #0b0223;
+}
+.nav__container .logo .logo_name > span {
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav__container .menu {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.nav__container .menu li a {
+  font-size: 1.8rem;
+  color: #3c354f;
+  font-weight: 500;
+  transition: var(--transition);
+}
+.nav__container .menu li a:hover {
+    color: #f948b2;
+}
+.nav__container .menu .social {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(11, 2, 35, 0.1);
+  border-radius: 1rem;
+  margin-left: 5rem;
+  align-items: center;
+}
