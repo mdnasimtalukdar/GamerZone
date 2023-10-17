@@ -92,3 +92,87 @@ nav {
   margin-left: 5rem;
   align-items: center;
 }
+/* Navbar End */
+.banner {
+    margin-top: 5rem;
+}
+.banner__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+   gap: 28rem;
+}
+.banner__container .banner__left {
+    padding: 14rem 0;
+}
+.banner__container .banner__left h2 {
+    font-size: 4.8rem;
+    color: #0B0223;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner__container .banner__left h1 {
+    font-size: 9.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.banner__container .banner__left .banner__list li {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    color: #534c64;
+    margin-top: 2rem;
+}
+.banner__container .banner__left .banner__list li i, img {
+    margin-right: 2rem;
+}
+.banner__container .banner__left .banner__list li img {
+    width:2rem;
+}
+.banner__container .banner__left > a {
+    text-transform: uppercase;
+    background: #ff42a5;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    color: #FFFFFF;
+    border-radius: 10rem;
+    margin-top: 4rem;
+    display: inline-block;
+}
+.banner__container .banner__left .banner__button2 {
+    background: #4EC5F7;
+    margin-left: 2rem;
+}
+.banner__right .banner__img {
+    width: 70rem;
+}
+.banner__right .banner__img img {
+    width: 100%;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width:576px) {
+    .container{
+        width: 90%;
+    }
+    nav {
+        display: none;
+    }
+    .banner__container {
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+    .banner__container .banner__left {
+        order: 1;
+        justify-self: center;
+    }
+    .banner__right .banner__img {
+        width: 50rem;
+    }
+    .banner__right .banner__img img {
+        width: 100%;
+    }
+}
+/* Responsive */
