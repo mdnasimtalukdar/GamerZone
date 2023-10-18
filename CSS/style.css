@@ -123,8 +123,11 @@ nav {
     color: #534c64;
     margin-top: 2rem;
 }
-.banner__container .banner__left .banner__list li i, img {
+.banner__container .banner__left .banner__list li i {
     margin-right: 2rem;
+}
+.banner__container .banner__left .banner__list li img {
+  margin-right: 2rem;
 }
 .banner__container .banner__left .banner__list li img {
     width:2rem;
@@ -218,7 +221,7 @@ nav {
 .onlineGames__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2.5rem;
+  gap: 7rem;
 }
 .onlineGames__container p {
   width: 34rem;
@@ -264,3 +267,106 @@ nav {
 .games__overlay:hover .content {
   opacity: 1;
 }
+/* Online Games */
+/* PlayInstant */
+#playInstant {
+  margin-bottom: 10rem;
+}
+.playInstant__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 12rem;
+  justify-items: end;
+}
+.playInstant__container .playInstant__left {
+  text-align: right;
+  width: 35rem;
+}
+.playInstant__container .playInstant__left h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6rem;
+}
+.playInstant__right .images {
+  position: relative;
+}
+.smallImg {
+  position: absolute;
+  bottom: -9rem;
+  left: -8.5rem;
+}
+/* PlayInstant */
+/* Play Games */
+#playGames {
+  margin-top: 20rem;
+  margin-bottom: 10rem;
+}
+.playGames__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 12rem;
+  justify-items: start;
+}
+.playGames__container .playGames__left {
+  width: 43rem;
+  order: 1;
+}
+.playGames__container .playGames__left h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6rem;
+}
+.playGames__right .images {
+  position: relative;
+}
+.smallImg2 {
+  position: absolute;
+  bottom: -9rem;
+  right: -8.5rem;
+}
+/* Play Games */
+/* Career */
+#career {
+  margin: 20rem 0 10rem 0;
+  background: #FF42A5;
+  /* padding: 12rem 0; */
+}
+.career__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.career__details h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6rem;
+  color: #FFFFFF;
+}
+.career__details p {
+  margin: 2.4rem 0 3.2rem 0;
+  color: #FFFFFF;
+}
+.career__details .careers {
+  display: flex;
+  gap: 9rem;
+}
+.careers ul li {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 4rem;
+  color: #FFFFFF;
+}
+.career__details > a {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #FF42A5;
+  text-transform: uppercase;
+  background: #FFFFFF;
+  padding: 2rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  margin-top: 3rem;
+}
+/* Career */
