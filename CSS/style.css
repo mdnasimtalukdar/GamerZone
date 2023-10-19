@@ -370,3 +370,90 @@ nav {
   margin-top: 3rem;
 }
 /* Career */
+/* Games Name */
+#gamesName {
+  margin-bottom: 10rem;
+  /* background: GRAY; */
+}
+.gamesName__one {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3rem;
+}
+.game__name {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  background: #FFF;
+  box-shadow: -2px 9px 30px -2px rgba(153,148,148,0.82);
+-webkit-box-shadow: -2px 9px 30px -2px rgba(153,148,148,0.82);
+-moz-box-shadow: -2px 9px 30px -2px rgba(153,148,148,0.82);
+  border-radius: 10rem;
+  border: 2px solid #FFF;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.game__name:hover {
+  box-shadow: none;
+  border-color: #ff42a5;
+}
+.game__name h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0B0223;
+}
+.gamesName__two {
+ display: flex;
+ justify-content: center;
+ gap: 4.5rem;
+ margin-top: 4rem;
+}
+/* Games Name */
+/* Footer */
+footer {
+  background: #0B0223;
+  padding: 12rem 50rem;
+}
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__logo .logo_name2 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #FFF;
+  margin-left: 1rem;
+}
+.footer__menu {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  margin-top: 5rem;
+}
+.footer__menu li a {
+  font-size: 1.8rem;
+  color: #FFF;
+}
+.social__media {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin: 5.5rem 0;
+}
+.social__media li a i {
+  color: #FFF;
+  font-size: 4rem;
+}
+.termsAndCondition {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+.termsAndCondition li a {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #FFF;
+}
+/* Footer */
